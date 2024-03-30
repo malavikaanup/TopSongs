@@ -21,6 +21,7 @@
 		BE98988D2BB79696001A5762 /* ErrorCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE98988C2BB79696001A5762 /* ErrorCases.swift */; };
 		BE98988F2BB7977E001A5762 /* Songs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE98988E2BB7977E001A5762 /* Songs.swift */; };
 		BE9898912BB79901001A5762 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9898902BB79901001A5762 /* Constants.swift */; };
+		BE9898932BB79E95001A5762 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9898922BB79E95001A5762 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		BE98988C2BB79696001A5762 /* ErrorCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCases.swift; sourceTree = "<group>"; };
 		BE98988E2BB7977E001A5762 /* Songs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Songs.swift; sourceTree = "<group>"; };
 		BE9898902BB79901001A5762 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BE9898922BB79E95001A5762 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 		BE9898862BB77669001A5762 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				BE9898922BB79E95001A5762 /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE9898582BB733B7001A5762 /* HomeViewController.swift in Sources */,
+				BE9898932BB79E95001A5762 /* HomeViewModel.swift in Sources */,
 				BE9898842BB77611001A5762 /* PlayerViewController.swift in Sources */,
 				BE98988B2BB7968A001A5762 /* NetworkManager.swift in Sources */,
 				BE98988F2BB7977E001A5762 /* Songs.swift in Sources */,
