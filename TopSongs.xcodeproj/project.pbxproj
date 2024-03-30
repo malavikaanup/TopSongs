@@ -17,6 +17,10 @@
 		BE9898752BB733B9001A5762 /* TopSongsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9898742BB733B9001A5762 /* TopSongsUITests.swift */; };
 		BE9898772BB733B9001A5762 /* TopSongsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9898762BB733B9001A5762 /* TopSongsUITestsLaunchTests.swift */; };
 		BE9898842BB77611001A5762 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9898832BB77611001A5762 /* PlayerViewController.swift */; };
+		BE98988B2BB7968A001A5762 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE98988A2BB7968A001A5762 /* NetworkManager.swift */; };
+		BE98988D2BB79696001A5762 /* ErrorCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE98988C2BB79696001A5762 /* ErrorCases.swift */; };
+		BE98988F2BB7977E001A5762 /* Songs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE98988E2BB7977E001A5762 /* Songs.swift */; };
+		BE9898912BB79901001A5762 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9898902BB79901001A5762 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		BE9898742BB733B9001A5762 /* TopSongsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSongsUITests.swift; sourceTree = "<group>"; };
 		BE9898762BB733B9001A5762 /* TopSongsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSongsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BE9898832BB77611001A5762 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		BE98988A2BB7968A001A5762 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		BE98988C2BB79696001A5762 /* ErrorCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCases.swift; sourceTree = "<group>"; };
+		BE98988E2BB7977E001A5762 /* Songs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Songs.swift; sourceTree = "<group>"; };
+		BE9898902BB79901001A5762 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,8 @@
 		BE9898522BB733B7001A5762 /* TopSongs */ = {
 			isa = PBXGroup;
 			children = (
+				BE9898892BB7967C001A5762 /* Utilities */,
+				BE9898882BB79672001A5762 /* WebServices */,
 				BE9898872BB77672001A5762 /* Model */,
 				BE9898862BB77669001A5762 /* ViewModel */,
 				BE9898852BB77649001A5762 /* ViewController */,
@@ -150,8 +160,26 @@
 		BE9898872BB77672001A5762 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BE98988E2BB7977E001A5762 /* Songs.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		BE9898882BB79672001A5762 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				BE98988A2BB7968A001A5762 /* NetworkManager.swift */,
+				BE98988C2BB79696001A5762 /* ErrorCases.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		BE9898892BB7967C001A5762 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BE9898902BB79901001A5762 /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,8 +315,12 @@
 			files = (
 				BE9898582BB733B7001A5762 /* HomeViewController.swift in Sources */,
 				BE9898842BB77611001A5762 /* PlayerViewController.swift in Sources */,
+				BE98988B2BB7968A001A5762 /* NetworkManager.swift in Sources */,
+				BE98988F2BB7977E001A5762 /* Songs.swift in Sources */,
 				BE9898542BB733B7001A5762 /* AppDelegate.swift in Sources */,
+				BE98988D2BB79696001A5762 /* ErrorCases.swift in Sources */,
 				BE9898562BB733B7001A5762 /* SceneDelegate.swift in Sources */,
+				BE9898912BB79901001A5762 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
