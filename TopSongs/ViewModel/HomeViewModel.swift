@@ -29,11 +29,12 @@ final class HomeViewModel {
     }
     private var error: ErrorCases?
     weak var songDelegate: SongServices?
+    var selectedIndex : Int = 0
     
-    func getSongsList() async{
+    func getSongsList(limit: Int) async{
         isLoading = true
         do {
-            self.songsList = try await NetworkManager.getSongs()
+            self.songsList = try await NetworkManager.getSongs(limit: limit)
             self.isLoading = false
         } catch(let err) {
             error = ErrorCases.custom(error: err)

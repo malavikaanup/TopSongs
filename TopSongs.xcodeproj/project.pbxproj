@@ -22,6 +22,8 @@
 		BE98988F2BB7977E001A5762 /* Songs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE98988E2BB7977E001A5762 /* Songs.swift */; };
 		BE9898912BB79901001A5762 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9898902BB79901001A5762 /* Constants.swift */; };
 		BE9898932BB79E95001A5762 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9898922BB79E95001A5762 /* HomeViewModel.swift */; };
+		BE9898952BB7C6F6001A5762 /* SongsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9898942BB7C6F6001A5762 /* SongsCollectionViewCell.swift */; };
+		BE9898972BB7D1F2001A5762 /* TSImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9898962BB7D1F2001A5762 /* TSImageLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		BE98988E2BB7977E001A5762 /* Songs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Songs.swift; sourceTree = "<group>"; };
 		BE9898902BB79901001A5762 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BE9898922BB79E95001A5762 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		BE9898942BB7C6F6001A5762 /* SongsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsCollectionViewCell.swift; sourceTree = "<group>"; };
+		BE9898962BB7D1F2001A5762 /* TSImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSImageLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,7 @@
 			children = (
 				BE9898572BB733B7001A5762 /* HomeViewController.swift */,
 				BE9898832BB77611001A5762 /* PlayerViewController.swift */,
+				BE9898942BB7C6F6001A5762 /* SongsCollectionViewCell.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				BE9898902BB79901001A5762 /* Constants.swift */,
+				BE9898962BB7D1F2001A5762 /* TSImageLoader.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -319,10 +325,12 @@
 				BE9898582BB733B7001A5762 /* HomeViewController.swift in Sources */,
 				BE9898932BB79E95001A5762 /* HomeViewModel.swift in Sources */,
 				BE9898842BB77611001A5762 /* PlayerViewController.swift in Sources */,
+				BE9898952BB7C6F6001A5762 /* SongsCollectionViewCell.swift in Sources */,
 				BE98988B2BB7968A001A5762 /* NetworkManager.swift in Sources */,
 				BE98988F2BB7977E001A5762 /* Songs.swift in Sources */,
 				BE9898542BB733B7001A5762 /* AppDelegate.swift in Sources */,
 				BE98988D2BB79696001A5762 /* ErrorCases.swift in Sources */,
+				BE9898972BB7D1F2001A5762 /* TSImageLoader.swift in Sources */,
 				BE9898562BB733B7001A5762 /* SceneDelegate.swift in Sources */,
 				BE9898912BB79901001A5762 /* Constants.swift in Sources */,
 			);

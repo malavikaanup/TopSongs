@@ -9,8 +9,8 @@ import Foundation
 
 final class NetworkManager {
     
-    static func getSongs() async throws -> [SongList] {
-        guard let url = URL(string: Constants.urlString) else {
+    static func getSongs(limit: Int) async throws -> [SongList] {
+        guard let url = URL(string: Constants.urlString(limit: limit)) else {
             throw ErrorCases.invalidURL
         }
         
