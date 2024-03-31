@@ -111,6 +111,7 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
         
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let playerVC = PlayerViewController()
+        self.viewModel.selectedIndex = indexPath.item
         playerVC.viewModel = self.viewModel
         DispatchQueue.main.async {
             self.present(playerVC, animated: true)

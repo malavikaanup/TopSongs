@@ -30,10 +30,58 @@
             filePath = "TopSongs/ViewController/PlayerViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1B3991E-69B9-48EF-B052-B49299E3C79D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TopSongs/ViewController/PlayerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
+            landmarkName = "PlayerViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A1B3991E-69B9-48EF-B052-B49299E3C79D - 6a7de554fddfbe41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TopSongs.PlayerViewController.loadAudio() -&gt; ()"
+                  moduleName = "TopSongs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/malavikaakhilesh/Documents/GitHub/TopSongs/TopSongs/ViewController/PlayerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "188"
+                  endingLineNumber = "188"
+                  offsetFromSymbolStart = "320">
+               </Location>
+               <Location
+                  uuid = "A1B3991E-69B9-48EF-B052-B49299E3C79D - 6a7de554fddfb8d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TopSongs.PlayerViewController.loadAudio() -&gt; ()"
+                  moduleName = "TopSongs"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/malavikaakhilesh/Documents/GitHub/TopSongs/TopSongs/ViewController/PlayerViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "199"
+                  endingLineNumber = "199"
+                  offsetFromSymbolStart = "308">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
